@@ -31,14 +31,16 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 const Profile = () => {
   let skills = [
     "React",
+    "Node",
+    "MongoDB",
     "Redux",
     "React-Native",
+    "Docker",
+    "Salesforce",
     "Git",
-    "Styled-components",
     "JIRA",
     "Agile",
-    "Storybook",
-    " React Testing library",
+    "React Testing library",
   ];
   return (
     <>
@@ -46,7 +48,7 @@ const Profile = () => {
         <BasicInfoSmall>
           <NameInfo>
             <Name>Kanish Sharma</Name>
-            <Designation>Senior Systems Engineer</Designation>
+            <Designation>Associate Technical Lead</Designation>
           </NameInfo>
           <ContactInfo>
             <ul
@@ -54,6 +56,7 @@ const Profile = () => {
                 listStyle: "none",
                 display: "flex",
                 flexDirection: "row",
+                margin: "10px"
               }}
             >
               <li>
@@ -114,18 +117,18 @@ const Profile = () => {
           <AboutPic>
             <AboutPicSpan>
               <img
-                src="/ProfilePic.jpeg"
+                src="/profileLinkedIn.jpg"
                 alt="Profile Pic"
-                height="40%"
-                width="40%"
+                height="30%"
+                width="50%"
                 style={{ objectFit: "fill", borderRadius: "100px" }}
               ></img>
             </AboutPicSpan>
           </AboutPic>
           <AboutDetailedInfo>
             <span>
-              Hi ,My name is Kanish and I am currently a Senior Systems Engineer
-              at Infosys with over 2 years of experince.
+              Hi ,My name is Kanish and I am currently an Associate Technical Lead
+              at Grazitti Interactive with over 6 years of experince.
             </span>
             <br />
             <span>
@@ -154,7 +157,7 @@ const Profile = () => {
                 }}
               >
                 {" "}
-                Python.
+                Python
               </mark>
             </span>
             <br />
@@ -185,6 +188,49 @@ const Profile = () => {
         <AboutDiv>
           <AboutHeading>Experience</AboutHeading>
         </AboutDiv>
+        <ExperienceDiv>
+          <ExperienceCompany>
+            <CompanyName>Grazitti Interactive</CompanyName>
+            <CompanyDesignation>Associate Technical Lead</CompanyDesignation>
+            <CompanyDuration>Oct 2025- Present</CompanyDuration>
+          </ExperienceCompany>
+          <ExperienceDetails>
+            <p>
+              Working as an Associate Technical Lead in Professional Service team. <br/>
+              Handled Client delievery expectations, Client communication and internal communication <br/>
+              Review the code/work of 1 software engineer and directly manage 1 software engineer fresher.
+              Handle complex clients and brainstorm solutions for customisations.
+            </p>
+          </ExperienceDetails>
+        </ExperienceDiv>
+        <ExperienceDiv>
+          <ExperienceCompany>
+            <CompanyName>Grazitti Interactive</CompanyName>
+            <CompanyDesignation>Senior Software Engineer</CompanyDesignation>
+            <CompanyDuration>July 2024 - Oct 25</CompanyDuration>
+          </ExperienceCompany>
+          <ExperienceDetails>
+            <p>
+              Contributed to internal modules of SearchUnify, an AI-powered cognitive search platform.<br/>
+              Developed custom API crawler for Adobe Experience Manager, enhancing automation and data retrieval.
+              Handle deadlines for Implementation of product in client salesforce environments.
+            </p>
+          </ExperienceDetails>
+        </ExperienceDiv>
+        <ExperienceDiv>
+          <ExperienceCompany>
+            <CompanyName>Grazitti Interactive</CompanyName>
+            <CompanyDesignation>Software Engineer</CompanyDesignation>
+            <CompanyDuration>Oct 2022 - July 2024</CompanyDuration>
+          </ExperienceCompany>
+          <ExperienceDetails>
+            <p>
+              Utilized ELK stack (Elasticsearch, Logstash, Kibana) for log analysis and debugging efficiency.<br/>
+              Debug issue faced by client while using our product SearchUnify.
+              Integrated React.js code across Salesforce, Zendesk, Monday.com, and Higher Logic Vanilla platforms.
+            </p>
+          </ExperienceDetails>
+        </ExperienceDiv>
         <ExperienceDiv>
           <ExperienceCompany>
             <CompanyName>Infosys Limited</CompanyName>
