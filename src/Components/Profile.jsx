@@ -56,6 +56,7 @@ const Profile = () => {
                 listStyle: "none",
                 display: "flex",
                 flexDirection: "row",
+                margin: "10px"
               }}
             >
               <li>
@@ -118,8 +119,8 @@ const Profile = () => {
               <img
                 src="/profileLinkedIn.jpg"
                 alt="Profile Pic"
-                height="40%"
-                width="40%"
+                height="30%"
+                width="50%"
                 style={{ objectFit: "fill", borderRadius: "100px" }}
               ></img>
             </AboutPicSpan>
@@ -195,8 +196,10 @@ const Profile = () => {
           </ExperienceCompany>
           <ExperienceDetails>
             <p>
-              Working as an Associate Technical Lead in Professional Service team. Handled Client
-              delievery expectations, Client communication , work with and mentor 2 jr.software engineers.
+              Working as an Associate Technical Lead in Professional Service team. <br/>
+              Handled Client delievery expectations, Client communication and internal communication <br/>
+              Review the code/work of 1 software engineer and directly manage 1 software engineer fresher.
+              Handle complex clients and brainstorm solutions for customisations.
             </p>
           </ExperienceDetails>
         </ExperienceDiv>
@@ -208,8 +211,9 @@ const Profile = () => {
           </ExperienceCompany>
           <ExperienceDetails>
             <p>
-            - Contributed to internal modules of SearchUnify, an AI-powered cognitive search platform.
-            - Developed custom API crawler for Adobe Experience Manager, enhancing automation and data retrieval.
+              Contributed to internal modules of SearchUnify, an AI-powered cognitive search platform.<br/>
+              Developed custom API crawler for Adobe Experience Manager, enhancing automation and data retrieval.
+              Handle deadlines for Implementation of product in client salesforce environments.
             </p>
           </ExperienceDetails>
         </ExperienceDiv>
@@ -221,8 +225,9 @@ const Profile = () => {
           </ExperienceCompany>
           <ExperienceDetails>
             <p>
-            - Utilized ELK stack (Elasticsearch, Logstash, Kibana) for log analysis and debugging efficiency.
-            - Integrated React.js across Salesforce, Zendesk, Monday.com, and Higher Logic Vanilla platforms.
+              Utilized ELK stack (Elasticsearch, Logstash, Kibana) for log analysis and debugging efficiency.<br/>
+              Debug issue faced by client while using our product SearchUnify.
+              Integrated React.js code across Salesforce, Zendesk, Monday.com, and Higher Logic Vanilla platforms.
             </p>
           </ExperienceDetails>
         </ExperienceDiv>
